@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f0f2f5">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,500;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/linkedin_icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>linkedin</title>
+</head>
+<body>
+
+    <nav class="navbar">    
+        <div class="navbar_left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo" ></a>
+            <div class="search_box">
+                <img src="images/search.png" alt="search">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="navbar_center">
+            <ul>
+                <li><a href="#" class="active_link"><img src="images/home.png" alt="home"><span>home</span></a></li>
+                <li><a href="#"><img src="images/network.png" alt="network"><span>my network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png" alt="jobs"><span>jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png" alt="message"><span>messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png" alt="notifications"><span>notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar_right">
+            <div class="online">
+                <img src="images/user-1.png" alt="user-1" class="nav_profile_img">
+            </div>
+        </div>
+        <!--    profile_drop_down_menu       -->
+        <div class="profile_menu_wrap" id="profileMenu">
+            <div class="profile_menu">
+                <div class="user_info">
+                    <img src="images/user-1.png" alt="user-1.png">
+                    <div>
+                        <h3>rayan walton</h3>
+                        <a href="profile.html">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile_menu_link">
+                    <img src="images/feedback.png" alt="feedback.png">
+                    <p>give feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile_menu_link">
+                    <img src="images/setting.png" alt="feedback.png">
+                    <p>settings & privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile_menu_link">
+                    <img src="images/help.png" alt="feedback.png">
+                    <p>help & support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile_menu_link">
+                    <img src="images/display.png" alt="feedback.png">
+                    <p>display & accessiblity</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile_menu_link">
+                    <img src="images/logout.png" alt="feedback.png">
+                    <p>logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!--                left sidebar                        -->
+        <div class="left_sidebar">
+            <div class="sidebar_profile_box">
+                <img src="images/cover-pic.png" alt="cover-pic" class="cover_pic">
+                <div class="sidebar_profile_info">
+                    <img src="images/user-1.png" alt="user-1">
+                    <h1>rayan walton</h1>
+                    <h3>web developer at night and day</h3>
+                    <ul>
+                        <li>your profile views<span>52</span></li>
+                        <li>your post views<span>810</span></li>
+                        <li>your connections views<span>379</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar_profile_link">
+                    <a href="#"><img src="images/items.png" alt="items">my items</a>
+                    <a href="#"><img src="images/premium.png" alt="premium">try premium</a>
+                </div>
+            </div>
+            <div class="sidebar_activity" id="sidebarActivity">
+                <h3>recent</h3>
+                <a href="#"><img src="images/recent.png" alt="recent">web development</a> 
+                <a href="#"><img src="images/recent.png" alt="recent">user interface</a> 
+                <a href="#"><img src="images/recent.png" alt="recent">online learning</a> 
+                <a href="#"><img src="images/recent.png" alt="recent">learn online</a> 
+                <a href="#"><img src="images/recent.png" alt="recent">code better/a> 
+                <a href="#"><img src="images/recent.png" alt="recent">group learning</a>
+                <h3>groups</h3> 
+                <a href="#"><img src="images/group.png" alt="group">web design group</a>
+                <a href="#"><img src="images/group.png" alt="group">hTML & cSS learning</a>
+                <a href="#"><img src="images/group.png" alt="group">python & javasctipt group</a>
+                <a href="#"><img src="images/group.png" alt="group">learn coding online</a>
+                <h3>hashtag</h3>
+                <a href="#"><img src="images/hashtag.png" alt="hashtag">web development</a>
+                <a href="#"><img src="images/hashtag.png" alt="hashtag">user interface</a>
+                <a href="#"><img src="images/hashtag.png" alt="hashtag">online learning</a>
+                <div class="discover_more_link">
+                    <a href="">discover more</a>
+                </div>
+            </div>
+            <p id="show_more_link" title="click Me">show more <b>+</b></p>
+        </div>
+
+        <!--                main content                        -->
+        <div class="main_content">
+            <div class="creat_post">
+                <div class="creat_post_input">
+                    <img src="images/user-1.png" alt="user-1">
+                    <textarea rows="2" placeholder="write a post"></textarea>
+                </div>
+                <div class="create_post_links">
+                    <li><img src="images/photo.png" alt="photo">photo</li>
+                    <li><img src="images/video.png" alt="video">video</li>
+                    <li><img src="images/event.png" alt="event">event</li>
+                    <li>post</li>
+                </div>
+            </div>
+            <div class="sort_by">
+                <hr>
+                <p>sort by: <span>top <img src="images/down-arrow.png" alt="down-arrow.png"></span></p>
+            </div>
+
+            <div class="post">
+                <div class="post_author">
+                    <img src="images/user-1.png" alt="user-1.jpg">
+                    <div>
+                        <h1>week cima</h1>
+                        <small>founder and ceo at flour goup | investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>the success of every websites depends on search engine optimisation and digital marketing strategy. if you are on first page of all major search evgines then you are ahead among your competitors.</p>
+                <img src="images/post-image-1.jpg" alt="post-image-1.jpg" class="post_image_1">
+                <div class="post_stats">
+                    <div>
+                        <img src="images/thumbsup.png" alt="thumbsup.png">
+                        <img src="images/love.png" alt="love.png">
+                        <img src="images/clap.png" alt="clap.png">
+                        <span class="linked_users">month aout and 75 others</span>
+                    </div>
+                    <div>
+                        <span>22 coments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post_activity">
+                    <div>
+                        <img src="images/user-1.png" alt="user-1.png" class="post_activity_user_icon">
+                        <img src="images/down-arrow.png" alt="down-arrow.png" class="post_activity_arrow_icon">
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/like.png" alt="like.png">
+                        <span>like</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/comment.png" alt="comment.png">
+                        <span>comment</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/share.png" alt="share.png">
+                        <span>share</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/send.png" alt="send.png">
+                        <span>send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post_author">
+                    <img src="images/user-2.png" alt="user-2.jpg">
+                    <div>
+                        <h1>table cima</h1>
+                        <small>founder and ceo at flour goup | investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>the success of every websites depends on search engine optimisation and digital marketing strategy. if you are on first page of all major search evgines then you are ahead among your competitors.</p>
+                <img src="images/post-image-2.jpg" alt="post-image-2.jpg" class="post_image_1">
+                <div class="post_stats">
+                    <div>
+                        <img src="images/thumbsup.png" alt="thumbsup.png">
+                        <img src="images/love.png" alt="love.png">
+                        <img src="images/clap.png" alt="clap.png">
+                        <span class="linked_users">month aout and 75 others</span>
+                    </div>
+                    <div>
+                        <span>22 coments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post_activity">
+                    <div>
+                        <img src="images/user-1.png" alt="user-1.png" class="post_activity_user_icon">
+                        <img src="images/down-arrow.png" alt="down-arrow.png" class="post_activity_arrow_icon">
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/like.png" alt="like.png">
+                        <span>like</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/comment.png" alt="comment.png">
+                        <span>comment</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/share.png" alt="share.png">
+                        <span>share</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/send.png" alt="send.png">
+                        <span>send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post_author">
+                    <img src="images/user-3.jpg" alt="user-3.jpg">
+                    <div>
+                        <h1>table cima</h1>
+                        <small>founder and ceo at flour goup | investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>the success of every websites depends on search engine optimisation and digital marketing strategy. if you are on first page of all major search evgines then you are ahead among your competitors.</p>
+                <img src="images/post-image-3.jpg" alt="post-image-3.jpg" class="post_image_1">
+                <div class="post_stats">
+                    <div>
+                        <img src="images/thumbsup.png" alt="thumbsup.png">
+                        <img src="images/love.png" alt="love.png">
+                        <img src="images/clap.png" alt="clap.png">
+                        <span class="linked_users">month aout and 75 others</span>
+                    </div>
+                    <div>
+                        <span>22 coments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post_activity">
+                    <div>
+                        <img src="images/user-1.png" alt="user-1.png" class="post_activity_user_icon">
+                        <img src="images/down-arrow.png" alt="down-arrow.png" class="post_activity_arrow_icon">
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/like.png" alt="like.png">
+                        <span>like</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/comment.png" alt="comment.png">
+                        <span>comment</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/share.png" alt="share.png">
+                        <span>share</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/send.png" alt="send.png">
+                        <span>send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post_author">
+                    <img src="images/user-4.png" alt="user-4.jpg">
+                    <div>
+                        <h1>table cima</h1>
+                        <small>founder and ceo at flour goup | investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>the success of every websites depends on search engine optimisation and digital marketing strategy. if you are on first page of all major search evgines then you are ahead among your competitors.</p>
+                <img src="images/post-image-4.jpg" alt="post-image-4.jpg" class="post_image_1">
+                <div class="post_stats">
+                    <div>
+                        <img src="images/thumbsup.png" alt="thumbsup.png">
+                        <img src="images/love.png" alt="love.png">
+                        <img src="images/clap.png" alt="clap.png">
+                        <span class="linked_users">month aout and 75 others</span>
+                    </div>
+                    <div>
+                        <span>22 coments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post_activity">
+                    <div>
+                        <img src="images/user-1.png" alt="user-1.png" class="post_activity_user_icon">
+                        <img src="images/down-arrow.png" alt="down-arrow.png" class="post_activity_arrow_icon">
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/like.png" alt="like.png">
+                        <span>like</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/comment.png" alt="comment.png">
+                        <span>comment</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/share.png" alt="share.png">
+                        <span>share</span>
+                    </div>
+                    <div class="post_activety_link">
+                        <img src="images/send.png" alt="send.png">
+                        <span>send</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--               right_sidebar                        -->
+        <div class="right_sidebar">
+            <div class="sidebar_news">
+                <img src="images/more.png" alt="more.png" class="info_icon">
+                <h3>trending news</h3>
+                <a href="#">high demand for skilled manpower</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#">careers growing horizontally too</a>
+                <span>19h ago &middot; 1,653 readers</span>
+
+                <a href="#">less work visa for us, more for algerie</a>
+                <span>1d ago &middot; 27,922 readers</span>
+
+                <a href="#">more hiring = higher confidence?</a>
+                <span>18h ago &middot; 8,136 readers</span>
+
+                <a href="#">night day is the world's third reachest</a>
+                <span>12h ago &middot; 4,208 readers</span>
+
+                <a href="#" class="read_more_link">read more</a>
+            </div>
+            <div class="sidebar_ad">
+                <small>ad &middot; &middot; &middot;</small>
+                <p>master the 5 principles of web design </p>
+                <div>
+                    <img src="images/user-1.png" alt="user-1">
+                    <img src="images/mi-logo.png" alt="user-1">
+                </div>
+                <b>brand and demand in xiaomi</b>
+                <a href="#" class="ad_link">learn more</a>
+            </div>
+            <div class="sidebar_useful_links">
+                <a href="#">about</a>
+                <a href="#">accessiblity</a>
+                <a href="#">help center</a>
+                <a href="#">privacy policy</a>
+                <a href="#">advertising</a>
+                <a href="#">get the app</a>
+                <a href="#">more</a>
+                <div class="copyright_msg">
+                    <img src="images/logo.png" alt="logo.png">
+                    <p>linkedup &#169; 2023. all right reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
